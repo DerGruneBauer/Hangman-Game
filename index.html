@@ -4,20 +4,35 @@
     <meta charset="UTF-8" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Hangman</title>
   </head>
   <body>
-    <h1>Hangman Game</h1>
+    <h1>Hangman Game - Coding Edition</h1>
     <button onclick="startHangmanGame()">Start Game</button>
+    <button class ="newGame" onclick ="newGame()">New Game</button>
     <span><!--Text to appear on game start--></span>
-    <div class="hangman">Hangman image to show up here</div>
+    <div class="hangman">
+        <div class="deadman1"></div>
+        <div class="deadman2"></div>
+        <div class="deadman3"></div>
+        <div class="deadman4"></div>
+        <div class="deadman5"></div>
+        <div class="deadman6"></div>
+        <div class="deadman7"></div>
+        <div class="deadman8"></div>
+        <div class="deadman9"></div>
+        <div class="deadman10"></div>
+        <span class ="lose">You Lose!</span>
+        <span class ="win">You Win!</span>
+    </div>
     <div class="word">
       <!---Empty slots for letters to appear on game start-->
     </div>
     <div class="alphabetContainer">
       <div class="alphabet">
-        <div class="a" data-value="a">A</div>
-        <div class="b" data-value="b">B</div>
+        <div class="a">A</div>
+        <div class="b">B</div>
         <div class="c">C</div>
         <div class="d">D</div>
         <div class="e">E</div>
