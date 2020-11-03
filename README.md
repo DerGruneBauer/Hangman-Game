@@ -1,5 +1,6 @@
 # Hangman-Game
 Hangman game in process
+-------------------------------------
 Test game by:
   
   1. Finishing one word
